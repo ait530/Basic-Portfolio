@@ -10,15 +10,10 @@ background-image: url('../images/seamless_paper_texture.png');
 header {
   
   background-color: #ffffff;
-
   border-color: #cccccc;
-
   font-family: 'Georgia', Times, Times New Roman, serif;
-
-  padding: 10px;
-
+  padding: 20px;
   color: white;
-
 
 }
 
@@ -30,14 +25,37 @@ header {
   width: 28%;
   text-align: center;
 
-
 }
 
 
 
 .container {
+  margin-left:100px;
+  align-content: center
+  border: 1px solid #777777;
+  font-size: 25px;
 
+  width: 60%;
   border-color: #dddddd;
+  background-color: #ffffff;
+
+  color: #4aaaa5;
+
+  float:left;
+  
+
+}
+
+
+
+
+.aboutline {
+  display: block;
+    height: 1px;
+    margin: 10px;
+    padding: 20;
+    color:#777777;
+    border: 10px;
 
 }
 
@@ -48,8 +66,11 @@ p {
   color: #777777;
 }
 
+
 .Contact {
   
+  width: 15%;
+
   background-color: #ffffff;
 
   text-align: center;
@@ -59,6 +80,8 @@ p {
   padding: 10px;
 
   float: right;
+
+  margin-right: 100px;
 
 }
 
@@ -78,15 +101,3 @@ footer {
 
 }
 
-
-hr {
-  
-  display: block;
-    height: 2px;
-    width:100%;
-    padding: 3px;
-    background-color: #4aaaa5;
-    border-color: #4aaaa5;
-    box-align: middle;
-
-}
