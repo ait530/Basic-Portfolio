@@ -3,6 +3,12 @@ My Portfolio
 
 
 
+****************
+The rubric for the assignment https://docs.google.com/spreadsheets/d/1Rn2Wuge2ehst57gZaQEhOcuYK3bqMfsruYULuaJ8Tks/edit#gid=0
+
+[1:38]  
+can also be found on our GitLab site for future reference
+
 *************
 Homework Instuctions
 Week 1 (Recommended) Assignment - That Portfolio Though...
