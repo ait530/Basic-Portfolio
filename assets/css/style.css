@@ -21,12 +21,6 @@ header {
   float:left;
 }
 
-.pageshortcuts {
-
-  float: right;
-
-}
-
 
 .boxed {
   float:left;
@@ -36,6 +30,14 @@ header {
   width: 28%;
   text-align: center;
   color:white;
+
+}
+
+
+
+.pageshortcuts {
+
+  float: right;
 
 }
 
@@ -83,20 +85,12 @@ p {
 .Contact {
   
   float: right;
-
-
   width: 15%;
-
   background-color: #ffffff;
-
   text-align: center;
-
   border: 1px solid black;
-
   padding: 10px;
-
-
-  margin-right: 100px;
+  margin-right: 10px;
 
 }
 
