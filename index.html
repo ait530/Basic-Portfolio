@@ -1,4 +1,4 @@
-<!-- PortfolioPage 1 -->
+<!-- PortfolioPage 1: Front Page with About Me -->
 <!doctype html>
 <html lang="en">
 
@@ -6,80 +6,95 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Aaron's Professional Web Developer Portfolio Site
-	  </title>
+    <title>Aaron's Professional Web Developer Portfolio Site</title>
+
    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
 
 
 <body>
-
-  <div id="wrapper">
-	<header>
+  <!-- Wrapper applies to entire page, background image pattern -->
+  <div class="wrapper">
+	
+    <!-- Everything in header -->
+    <section class="header">
+      
+      <!-- My Name -->
+      <section class="name">
+      <h1>Aaron Trierweiler</h1></section>
     
-    <div class="boxed">
-      <h1>Aaron Trierweiler</h1>
-    </div>
+      <!-- About Portfolio Contact -->
+      <section class="page-shortcuts">
+        <h3>About Portfolio   Contact</h3>
+      </section>
 
-    <div class="page-shortcuts">
-      <h3>About Portfolio Contact</h3>
-    </div>
-
-    <section class="name-section-line"><hr></hr></section>
-  </header>
+    </section>
+ 
+    <!-- Line that seperates header from main content-->
+    <section class="header-line"><hr></hr>
+    </section>
 	
-
-  <div class="content">
+    <!-- Main content: about me -->
+    <div class="content">
   
-      
-      <h1>About Me</h1>
+      <!-- About Me -->
+      <section class="about-me"><h1>About Me</h1></section>
+
+      <!-- Line between about me and content -->
+      <section class="about-line"><hr></hr></section>
+
+      <!-- Profile Pic -->
+      <section class="profile-picture"><img src="assets/images/profile pic.jpg" alt="My Face" style="width:135px;height:225px; border: 4px solid #777777;" align="left"></section>
 
       
-      <section id="about-line"><hr></hr></section>
+      <!-- Paragraph content -->
+			<section class="paragraphs">
+        <p>Welcome to my portfolio page! My name is Aaron Trierweiler, and I am an aspiring full-stack web developer. I am currently enrolled at Northwestern Coding Boot Camp in order to gain the skills I need to acheive my career goals.</p>
 
-      <img src="assets/images/profile pic.jpg" alt="My Face" style="width:150px;height:250px; border: 1px #cccccc" align="left">
+			   <p>During my free time, I enjoy playing music, running, reading, and watching action shows on netflix. Feel free to contact me!</p>
+      </section>
+    
+    </div>
 
-			<p>Welcome to my portfolio page! My name is Aaron Trierweiler, and I am an aspiring full-stack web developer. I am currently enrolled at Northwestern Coding Boot Camp in order to gain the skills I need to acheive my career goals.</p>
-
-			<p>During my free time, I enjoy playing music, running, reading, and watching action shows on netflix. Feel free to contact me!</p>
-		</section>
-	
-  </div>
-
-
-  <div class="Contact">
+    <!-- Contact with me box -->
+    <div class="Contact">
 			
+      <!-- Connect with me text -->
       <h2>Connect with Me</h2>
+
+      <section class="connect-line"><hr></hr></section>
 		  
-      <!-- Links to only github front page for now. -->
+
+      <!-- Github Image: Links to only github front page for now. -->
       <a href="https://github.com/">
       <img border="0" src="assets/images/github.png" alt="github button" style="width:60px;height:6
-      0px;"></a>
+      0px; margin-right: 17px;"></a>
+
       
-      <!-- Links to linkedin home page for now. -->
+      <!-- Linkedin Image: Links to linkedin home page for now. -->
       <a href="https://www.linkedin.com/">
       <img src="assets/images/square-linkedin.png" alt="linkedin button" style="width:60px;height:6
-      0px;"></a>
+      0px; margin-right: 17px"></a>
 
-      <!-- Links to stackoverflow front page for now. -->
+
+      <!-- Stackoverflow: Links to stackoverflow front page for now. -->
       <a href="http://stackoverflow.com/"> <img src="assets/images/Stack_Overflow.png" alt="StackOverflow button" style="width:60px;height:6
       0px;"></a>
   
-  </div>
+    </div>
         
-        <!--<li><strong>Email:</strong> <a href="#">aarontrierweiler2017@northwestern.edu</a>
+
+        <!--Old Code: <li><strong>Email:</strong> <a href="#">aarontrierweiler2017@northwestern.edu</a>
         </li>
         <li><strong>Github:</strong> <a href="#">ait530</a></li>
         <li><strong>Portfolio:</strong> <a href="#">Coming soon</a></li>-->
-    </section>
-   
-  </div>
-  </div>
-
+    
+    <section class="teal-footer-line"></section>
     <footer>
+      
       &#169; Copyright 2016 Aaron Trierweiler
     </footer>
-
+  </div>
 
 </body>
 </html>
