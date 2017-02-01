@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Aaron's Portfolio Page</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+<!-- PortfolioPage 2: Gallery Page -->
+<!doctype html>
+<html lang="en">
+
+
 
   <head>
     <meta charset="utf-8">
@@ -16,18 +14,32 @@
 
 <body>
   <!-- Wrapper applies to entire page, background image pattern -->
-  <div class="wrapper">
+  <div class="portfolio-wrapper">
   
     <!-- Everything in header -->
     <section class="header">
       
       <!-- My Name -->
-      <section class="name">
+      <section class="portfolio-name">
       <h1>Aaron Trierweiler</h1></section>
     
       <!-- About Portfolio Contact -->
-      <section class="page-shortcuts">
-        <h3>About Portfolio   Contact</h3>
+      <section class="portfolio-page-shortcuts">
+        
+        <!-- <button type="button">Click Me!</button> -->
+        
+        <section class="About-button">
+          <button><h3>About<a href="assets/index.html" target="_blank"></a></h3></button>
+        </section>
+          
+        <section class="Portfolio-button">
+          <button><h3>Portfolio<a href="assets/portfolio.html" target="_blank"></a></h3></button>
+        </section>
+
+        <section class="Contact-button" target="_blank"> 
+          <button><h3>Contact<a href="assets/contact.html"></a></h3></button>
+        </section>
+
       </section>
 
     </section>
@@ -36,23 +48,49 @@
     <section class="header-line"><hr></hr>
     </section>
   
-    <!-- Main content: about me -->
-    <div class="content">
+    <!-- Main content: Portfolio-->
+    <div class="portfolio-content">
   
-      <!-- About Me -->
-      <section class="about-me"><h1>About Me</h1></section>
+      <!-- Portfolio Page title -->
+      <section class="portfolio-title"><h1>Portfolio</h1></section>
 
-      <!-- Line between about me and content -->
-      <section class="about-line"><hr></hr></section>
-
-      <!-- Profile Pic -->
-      <section class="profile-picture"><img src="assets/images/profile pic.jpg" alt="My Face" style="width:135px;height:225px; border: 6px solid #777777;" align="left"></section>
-
+      <!-- Line between Portfolio and content -->
       
-      <!-- Paragraph content -->
-      <p>Welcome to my portfolio page! My name is Aaron Trierweiler, and I am an aspiring full-stack web developer. I am currently enrolled at Northwestern Coding Boot Camp in order to gain the skills I need to acheive my career goals.</p>
+      <section class="portfolio-line"><hr></hr></section>
 
-      <p>During my free time, I enjoy playing music, running, reading, and watching action shows on netflix. Feel free to contact me!</p>
+
+      <section class="hangman"><img src="assets/images/placeholderimage3.jpeg" alt="Hangman" style="width:220px;height:220px;">
+      </section>
+      <section class="hangman-text"><h1>Hangman</h1></section>
+
+
+
+
+      <section class="rpg-game"><img src="assets/images/placeholder image.jpeg" alt="mountain" style="width:220px;height:220px;">
+      </section>
+      <section class="rpg-text"><h1>RPG Game</h1></section>
+
+
+
+
+      <section class="trivia-game"><img src="assets/images/placeholderimage2.jpeg" alt="surfer" style="width:220px;height:220px;">
+      </section>
+      <section class="trivia-text"><h1>Trivia Game</h1></section>
+
+
+
+      <section class="widget"><img src="assets/images/placeholderimage5.jpg" alt="widget" style="width:220px;height:220px;">
+      </section>
+      <section class="widget-text"><h1>Northwestern Info Widget</h1></section>
+
+
+
+      <section class="rock"><img src="assets/images/placeholderimage4.jpg" alt="rock" style="width:220px;height:220px;">
+      </section>
+      <section class="rock-text"><h1>Rock Paper Scissors</h1></section>
+
+    
+      
     
     </div>
 
@@ -63,23 +101,31 @@
       <h2>Connect with Me</h2>
 
       <section class="connect-line"><hr></hr></section>
-      
 
-      <!-- Github Image: Links to only github front page for now. -->
-      <a href="https://github.com/">
-      <img border="0" src="assets/images/github.png" alt="github button" style="width:60px;height:6
-      0px; margin-right: 17px;"></a>
+      
+      <section class="hover">
+        
+        <!-- Github Image: Links to only github front page for now. -->
+        
+        <a href="https://github.com/">
+        <img border="0" src="assets/images/github.png" alt="github button" style="width:60px;height:6
+        0px; margin-right:17px"></a>
+        
+      <!-- </section> -->
 
       
       <!-- Linkedin Image: Links to linkedin home page for now. -->
-      <a href="https://www.linkedin.com/">
-      <img src="assets/images/square-linkedin.png" alt="linkedin button" style="width:60px;height:6
-      0px; margin-right: 17px"></a>
+
+        <a href="https://www.linkedin.com/">
+        <img src="assets/images/square-linkedin.png" alt="linkedin button" style="width:60px;height:6
+        0px; margin-right:17px"></a>
 
 
       <!-- Stackoverflow: Links to stackoverflow front page for now. -->
-      <a href="http://stackoverflow.com/"> <img src="assets/images/Stack_Overflow.png" alt="StackOverflow button" style="width:60px;height:6
-      0px;"></a>
+        <a href="http://stackoverflow.com/"> <img src="assets/images/Stack_Overflow.png" alt="StackOverflow button" style="width:60px;height:6
+        0px;"></a>
+        
+      </section>
   
     </div>
         
@@ -89,10 +135,12 @@
         <li><strong>Github:</strong> <a href="#">ait530</a></li>
         <li><strong>Portfolio:</strong> <a href="#">Coming soon</a></li>-->
     
-    <footer>
-      <section class="teal-footer-line"></section>
+    <section class="teal-footer-line"></section>
+    <footer class="site-footer">
+      
       &#169; Copyright 2016 Aaron Trierweiler
     </footer>
+  
   </div>
 
 </body>
