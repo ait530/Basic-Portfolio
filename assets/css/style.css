@@ -4,7 +4,7 @@
 .wrapper{
 
   width:1230px;
-  height:800px;
+  height:730px;
   margin:0 auto;
   background-image: url("../images/seamless_paper_texture.png");
 
@@ -39,8 +39,8 @@
   font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
   color:#777777;
   float: right;
-  margin-top: 50px;
-  margin-right: 120px;
+  margin-top: 60px;
+  margin-right: 145px;
   float: right;
   
   
@@ -222,7 +222,7 @@
 .site-footer {
   clear: both;
   overflow: auto;
-  width:120s0px;
+  width:1200px;
 
   
   color: #ffffff;
@@ -324,8 +324,8 @@
   font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
   color:#777777;
   float: right;
-  margin-top: 50px;
-  margin-right: 120px;
+  margin-top: 60px;
+  margin-right: 145px;
   float: right;
 
 
@@ -508,10 +508,10 @@
   font-size:10px;
   background-color:#4aaaa5;
   padding: 5px;
-  margin-left:29px;
+  margin-left:29.9px;
   margin-top:770px;
   z-index:1;
-  width:18%;
+  width:17%;
   position:absolute;
 
 }
@@ -565,8 +565,8 @@
   font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
   color:#777777;
   float: right;
-  margin-top: 50px;
-  margin-right: 120px;
+  margin-top: 60px;
+  margin-right: 145px;
   float: right;
 
 
