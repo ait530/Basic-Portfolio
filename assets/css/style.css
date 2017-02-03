@@ -1,9 +1,9 @@
-/*CSS for Indext File*/
+/*CSS for Index File*/
 /**************************************/
 
 .wrapper{
 
-  width:1230px;
+  width:960px;
   height:730px;
   margin:0 auto;
   background-image: url("../images/seamless_paper_texture.png");
@@ -39,8 +39,8 @@
   font-family:'Arial','Helvetica Neue',Helvetica, sans-serif;
   color:#777777;
   float: right;
-  margin-top: 60px;
-  margin-right: 145px;
+  margin-top: 65px;
+  margin-right: 315px;
   float: right;
   
   
@@ -96,8 +96,8 @@
 .content {
   float: left;
   border: 1px, solid #dddddd;
-  width: 650px;
-  height: 325px;
+  width: 490px;
+  height: 375px;
   color: #777777;
   background-color: #ffffff;
   font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -135,7 +135,7 @@
     height: 5px;
     color:#777777;
     border: 50px;
-    width:600px;
+    width:400px;
     margin-left:30px;
 
 
@@ -154,7 +154,7 @@
 
 .paragraphs {
 
-  margin-right:40px;
+  margin-right:45px;
 
 }
 
@@ -166,10 +166,10 @@
   width: 270px;
   background-color: #ffffff;
   text-align: center;
-  border: 1spx solid #dddddd;
+  border: 1px solid #dddddd;
   padding: 6px;
   margin-right: 5px;
-  margin-left: 50px;
+  margin-left: 35px;
   margin-top: 50px;
   font-family: 'Georgia', Times, "Times New Roman", serif;
 
@@ -204,7 +204,7 @@
   float: left;
   background-color: #4aaaa5;
   height:9px;
-  width:1230px;
+  width:960px;
   
 
 
@@ -214,7 +214,7 @@
 
 .site-footer, .page-wrap:after {
   height: 100px;
-  margin-top: -50px; 
+  margin-top: -1000px; 
 
 }
 
@@ -222,13 +222,13 @@
 .site-footer {
   clear: both;
   overflow: auto;
-  width:1200px;
+  width:940px;
 
   
   color: #ffffff;
   background-color: #666666;
 
-  padding: 20px;
+  padding: 10px;
   color:#D3D3D3;
 
   text-align: center;
@@ -268,8 +268,8 @@
 
 .portfolio-wrapper {
   position: relative;
-  width:1230px;
-  height:1280px;
+  width:960px;
+  height:1300px;
   margin:0 auto;
   background-image: url("../images/seamless_paper_texture.png");
 
@@ -283,7 +283,7 @@
 .portfolio-content {
   float: left;
   border: 1px, solid #dddddd;
-  width: 650px;
+  width: 490px;
   height: 1000px;
   color: #777777;
   background-color: #ffffff;
@@ -325,7 +325,7 @@
   color:#777777;
   float: right;
   margin-top: 60px;
-  margin-right: 145px;
+  margin-right: 300px;
   float: right;
 
 
@@ -357,8 +357,8 @@
   display: block
     height: 5px;
     color:#777777;
-    border: 50px;
-    width:600px;
+    border:50px;
+    width:438px;
     margin-left:30px;
 
 }
@@ -380,16 +380,16 @@
 
 .hangman-text {
   text-align:center;
-  position:relative;
+  position:absolute;
   font-family: 'Georgia', Times, "Times New Roman", serif;
   color:white;
   font-size:10px;
   background-color:#4aaaa5;
-  padding: 15px;
+  padding: 12px;
   margin-left:30px;
   margin-top:148px;
   z-index:1;
-  width:29%;
+  width:18.3%;
   float:left;
 
 }
@@ -399,7 +399,7 @@
 
 .rpg-game {
   float:left;
-  margin-left: 410px;
+  margin-left: 265px;
   position: absolute;
 
 }
@@ -409,16 +409,16 @@
 
   float:left;
   text-align:center;
-  position:relative;
+  position:absolute;
   font-family: 'Georgia', Times, "Times New Roman", serif;
   color:white;
   font-size:10px;
   background-color:#4aaaa5;
-  padding: 16px;
-  margin-left:161px;
-  margin-top:148px;
+  padding: 12px;
+  margin-left:265px;
+  margin-top:147px;
   z-index:1;
-  width:29%;
+  width:18.3%;
 
 
 }
@@ -440,16 +440,16 @@
 
   float:left;
   text-align:center;
-  position:relative;
+  position:absolute;
   font-family: 'Georgia', Times, "Times New Roman", serif;
   color:white;
   font-size:10px;
   background-color:#4aaaa5;
   padding: 15px;
   margin-left:30px;
-  margin-top:230px;
+  margin-top:430px;
   z-index:1;
-  width:30%;
+  width:18%;
 
 
 }
@@ -460,7 +460,7 @@
 
   float:left;
   margin-top: 300px;
-  margin-left: 410px;
+  margin-left: 265px;
   position: absolute;
 
 
@@ -472,16 +472,16 @@
   
   float:left;
   text-align:center;
-  position:relative;
+  position:absolute;
   font-family: 'Georgia', Times, "Times New Roman", serif;
   color:white;
   font-size:10px;
   background-color:#4aaaa5;
-  padding: 10px;
-  margin-left:155px;
-  margin-top:220px;
+  padding: 7px;
+  margin-left:265px;
+  margin-top:430px;
   z-index:1;
-  width:31%;
+  width:19.5%;
 
 }
 
@@ -507,11 +507,11 @@
   color:white;
   font-size:10px;
   background-color:#4aaaa5;
-  padding: 5px;
+  padding: 10px;
   margin-left:29.9px;
   margin-top:770px;
   z-index:1;
-  width:17%;
+  width:19%;
   position:absolute;
 
 }
@@ -549,8 +549,8 @@
 .contact-wrapper {
 
   
-  width:1230px;
-  height:3000spx;
+  width:960px;
+  height:1100px;
   margin:0 auto;
   background-image: url("../images/seamless_paper_texture.png");
 
@@ -566,9 +566,23 @@
   color:#777777;
   float: right;
   margin-top: 60px;
-  margin-right: 145px;
+  margin-right: 355px;
   float: right;
 
+
+
+}
+
+
+
+
+.contact-line {
+  display: block
+    height: 4px;
+    color:#777777;
+    border:50px;
+    width:400px;
+    margin-left:30px;
 
 
 }
@@ -579,8 +593,8 @@
 
   float: left;
   border: 1px, solid #dddddd;
-  width: 650px;
-  height: 325px;
+  width: 450px;
+  height: 750px;
   color: #777777;
   background-color: #ffffff;
   font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -600,7 +614,7 @@
 
 .contact-title {
 
-  margin-top: 20px;
+  margin-top: 26px;
   margin-left: 30px;
   color:#4aaaa5;
 
@@ -621,19 +635,19 @@
 
 .name-box {
 
-  width:300px;
+ 
 }
 
 
 .email-box {
   
-  width:300px;
+  
 }
 
 
 .message-box {
 
-  width:300px;
+
 
 }
 
@@ -645,11 +659,13 @@
   font-size:10px;
   background-color:#4aaaa5;
   float:left;
-  padding: 20px;
-  margin-left:400px;
-  margin-top:220px;
+  padding: 15px;
+  margin-left:165px;
+  margin-top:700px;
   z-index:1;
-  
+  width:15%;
+  text-align: center;
+
 
 }
 
